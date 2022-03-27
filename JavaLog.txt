@@ -1,0 +1,1402 @@
+[DBMS] Database has finished initialization.
+[(Backup) DBMS] Database has finished initialization.
+[DBMS (Processing Thread 2)] is now ready to handle requests.
+[DBMS (Processing Thread 1)] is now ready to handle requests.
+[DBMS (Processing Thread 0)] is now ready to handle requests.
+[DBMS (Processing Thread 3)] is now ready to handle requests.
+[(Backup) DBMS (Processing Thread 0)] is now ready to handle requests.
+[Bank Teller 1] is beginning to send requests.
+[Bank Teller 2] is beginning to send requests.
+[Bank Teller 3] is beginning to send requests.
+[Bank Teller 0] is beginning to send requests.
+[Bank Teller 0] Sent request #3
+[Bank Teller 3] Sent request #2
+[Bank Teller 1] Sent request #0
+[Bank Teller 2] Sent request #1
+[DBMS (Processing Thread 2)] Req #0 has not cached any update packets. Not committing
+[DBMS (Processing Thread 1)] Added update '<UPDATE 0>42081,42050,106.34' for request #0
+[DBMS (Processing Thread 3)] Added update '<UPDATE 0>42027,42077,531.44' for request #0
+[DBMS (Processing Thread 0)] Added update '<UPDATE 0>42058,42082,482.96' for request #0
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 0>42081,42050,106.34' for request #0
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 0>42058,42082,482.96' for request #0
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 0>42027,42077,531.44' for request #0
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #0
+[(Backup) DBMS (Processing Thread 0)] Committed request #0
+[DBMS (Processing Thread 2)] hasn't started request #1, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 1>42009,42022,388.94' for request #1
+[DBMS (Processing Thread 0)] Added update '<UPDATE 1>42026,42002,443.20' for request #1
+[DBMS (Processing Thread 2)] Added update '<UPDATE 1>42032,42033,617.10' for request #1
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #0
+[Bank Teller 1] Sent request #4
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 1>42009,42022,388.94' for request #1
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 1>42026,42002,443.2' for request #1
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 1>42032,42033,617.1' for request #1
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #1
+[(Backup) DBMS (Processing Thread 0)] Committed request #1
+[DBMS (Processing Thread 1)] Added update '<UPDATE 2>42022,42054,575.37' for request #2
+[DBMS (Processing Thread 0)] Added update '<UPDATE 2>42022,42081,38.64' for request #2
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #1
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 2>42022,42054,575.37' for request #2
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 2>42022,42081,38.64' for request #2
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #2
+[(Backup) DBMS (Processing Thread 0)] Committed request #2
+[DBMS (Processing Thread 2)] hasn't started request #3, skipping
+[DBMS (Processing Thread 3)] hasn't started request #3, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 3>42083,42025,613.14' for request #3
+[DBMS (Processing Thread 0)] 1 packets exist for request 3, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 3>42022,42091,422.68' for request #3
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #2
+[Bank Teller 3] Sent request #5
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 3>42083,42025,613.14' for request #3
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 3>42022,42091,422.68' for request #3
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #3
+[(Backup) DBMS (Processing Thread 0)] Committed request #3
+[DBMS (Processing Thread 3)] hasn't started request #4, skipping
+[DBMS (Processing Thread 1)] hasn't started request #4, skipping
+[DBMS (Processing Thread 2)] hasn't started request #4, skipping
+[DBMS (Processing Thread 1)] hasn't started request #4, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 4>42072,42059,744.87' for request #4
+[DBMS (Processing Thread 3)] Added update '<UPDATE 4>42004,42082,82.69' for request #4
+[DBMS (Processing Thread 3)] Added update '<UPDATE 4>42093,42019,352.82' for request #4
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #3
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 4>42072,42059,744.87' for request #4
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 4>42004,42082,82.69' for request #4
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 4>42093,42019,352.82' for request #4
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #4
+[(Backup) DBMS (Processing Thread 0)] Committed request #4
+[DBMS (Processing Thread 2)] hasn't started request #5, skipping
+[DBMS (Processing Thread 1)] hasn't started request #5, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 5>42084,42016,777.17' for request #5
+[DBMS (Processing Thread 0)] Added update '<UPDATE 5>42049,42001,558.68' for request #5
+[DBMS (Processing Thread 0)] 1 packets exist for request 5, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 5>42042,42031,427.98' for request #5
+[Bank Teller 0] Sent request #6
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #4
+[Bank Teller 1] Sent request #7
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 5>42084,42016,777.17' for request #5
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 5>42049,42001,558.68' for request #5
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 5>42042,42031,427.98' for request #5
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #5
+[(Backup) DBMS (Processing Thread 0)] Committed request #5
+[DBMS (Processing Thread 0)] hasn't started request #6, skipping
+[DBMS (Processing Thread 2)] hasn't started request #6, skipping
+[DBMS (Processing Thread 0)] 1 packets exist for request 6, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 6>42032,42010,142.25' for request #6
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 6>42032,42010,142.25' for request #6
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #6
+[DBMS (Processing Thread 3)] Added update '<UPDATE 7>42003,42013,610.92' for request #7
+[DBMS (Processing Thread 2)] Added update '<UPDATE 7>42035,42064,756.08' for request #7
+[(Backup) DBMS (Processing Thread 0)] Committed request #6
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #5
+[Bank Teller 3] Sent request #8
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 7>42003,42013,610.92' for request #7
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 7>42035,42064,756.08' for request #7
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #7
+[(Backup) DBMS (Processing Thread 0)] Committed request #7
+[DBMS (Processing Thread 1)] hasn't started request #8, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 8>42058,42047,52.89' for request #8
+[DBMS (Processing Thread 2)] Added update '<UPDATE 8>42037,42052,692.00' for request #8
+[DBMS (Processing Thread 2)] Added update '<UPDATE 8>42020,42087,526.28' for request #8
+[DBMS (Processing Thread 2)] Added update '<UPDATE 8>42040,42005,326.73' for request #8
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #6
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 8>42058,42047,52.89' for request #8
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 8>42037,42052,692.0' for request #8
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 8>42020,42087,526.28' for request #8
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 8>42040,42005,326.73' for request #8
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #8
+[(Backup) DBMS (Processing Thread 0)] Committed request #8
+[Bank Teller 2] Sent request #9
+[DBMS (Processing Thread 1)] Added update '<UPDATE 9>42009,42019,788.96' for request #9
+[DBMS (Processing Thread 1)] Added update '<UPDATE 9>42020,42093,853.51' for request #9
+[DBMS (Processing Thread 0)] Added update '<UPDATE 9>42077,42013,58.32' for request #9
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #8
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #7
+[Bank Teller 1] Sent request #10
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 9>42009,42019,788.96' for request #9
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 9>42077,42013,58.32' for request #9
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 9>42020,42093,853.51' for request #9
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #9
+[(Backup) DBMS (Processing Thread 0)] Committed request #9
+[DBMS (Processing Thread 2)] hasn't started request #10, skipping
+[DBMS (Processing Thread 0)] 2 packets exist for request 10, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 10>42025,42070,382.97' for request #10
+[DBMS (Processing Thread 3)] Added update '<UPDATE 10>42058,42015,39.16' for request #10
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 10>42025,42070,382.97' for request #10
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 10>42058,42015,39.16' for request #10
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #10
+[(Backup) DBMS (Processing Thread 0)] Committed request #10
+[Bank Teller 0] Sent request #11
+[DBMS (Processing Thread 0)] Added update '<UPDATE 11>42061,42023,739.12' for request #11
+[DBMS (Processing Thread 0)] Added update '<UPDATE 11>42057,42002,42.33' for request #11
+[DBMS (Processing Thread 0)] Added update '<UPDATE 11>42010,42012,890.50' for request #11
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #9
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #10
+[Bank Teller 1] Sent request #12
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 11>42061,42023,739.12' for request #11
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 11>42057,42002,42.33' for request #11
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 11>42010,42012,890.5' for request #11
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #11
+[(Backup) DBMS (Processing Thread 0)] Committed request #11
+[DBMS (Processing Thread 3)] hasn't started request #12, skipping
+[DBMS (Processing Thread 2)] hasn't started request #12, skipping
+[DBMS (Processing Thread 1)] hasn't started request #12, skipping
+[DBMS (Processing Thread 2)] hasn't started request #12, skipping
+[DBMS (Processing Thread 3)] hasn't started request #12, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 12>42050,42062,541.18' for request #12
+[DBMS (Processing Thread 1)] Added update '<UPDATE 12>42014,42038,248.68' for request #12
+[DBMS (Processing Thread 1)] Added update '<UPDATE 12>42055,42031,336.94' for request #12
+[DBMS (Processing Thread 1)] Added update '<UPDATE 12>42083,42060,521.12' for request #12
+[Bank Teller 3] Sent request #14
+[Bank Teller 2] Sent request #13
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #11
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 12>42050,42062,541.18' for request #12
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 12>42014,42038,248.68' for request #12
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 12>42055,42031,336.94' for request #12
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 12>42083,42060,521.12' for request #12
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #12
+[(Backup) DBMS (Processing Thread 0)] Committed request #12
+[DBMS (Processing Thread 2)] hasn't started request #13, skipping
+[DBMS (Processing Thread 0)] hasn't started request #13, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 13>42031,42032,346.49' for request #13
+[DBMS (Processing Thread 0)] Added update '<UPDATE 13>42037,42002,346.30' for request #13
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #12
+[Bank Teller 0] Sent request #15
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 13>42031,42032,346.49' for request #13
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 13>42037,42002,346.3' for request #13
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #13
+[(Backup) DBMS (Processing Thread 0)] Committed request #13
+[DBMS (Processing Thread 0)] Added update '<UPDATE 14>42016,42086,498.68' for request #14
+[DBMS (Processing Thread 3)] 1 packets exist for request 14, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 14>42044,42056,298.29' for request #14
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 14>42016,42086,498.68' for request #14
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 14>42044,42056,298.29' for request #14
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #14
+[(Backup) DBMS (Processing Thread 0)] Committed request #14
+[DBMS (Processing Thread 3)] hasn't started request #15, skipping
+[DBMS (Processing Thread 1)] 2 packets exist for request 15, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 15>42076,42054,741.46' for request #15
+[DBMS (Processing Thread 3)] Added update '<UPDATE 15>42084,42076,941.78' for request #15
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #13
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #14
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 15>42076,42054,741.46' for request #15
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 15>42084,42076,941.78' for request #15
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #15
+[(Backup) DBMS (Processing Thread 0)] Committed request #15
+[Bank Teller 3] Sent request #16
+[DBMS (Processing Thread 3)] Added update '<UPDATE 16>42035,42019,555.11' for request #16
+[DBMS (Processing Thread 3)] Added update '<UPDATE 16>42067,42055,355.40' for request #16
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 16>42035,42019,555.11' for request #16
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 16>42067,42055,355.4' for request #16
+[Bank Teller 2] Sent request #17
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #16
+[(Backup) DBMS (Processing Thread 0)] Committed request #16
+[DBMS (Processing Thread 0)] hasn't started request #17, skipping
+[DBMS (Processing Thread 2)] hasn't started request #17, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 17>42095,42019,772.62' for request #17
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #15
+[Bank Teller 0] Sent request #18
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #16
+[Bank Teller 3] Sent request #19
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 17>42095,42019,772.62' for request #17
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #17
+[(Backup) DBMS (Processing Thread 0)] Committed request #17
+[DBMS (Processing Thread 3)] hasn't started request #18, skipping
+[DBMS (Processing Thread 3)] hasn't started request #18, skipping
+[DBMS (Processing Thread 1)] hasn't started request #18, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 18>42008,42040,581.04' for request #18
+[DBMS (Processing Thread 1)] 1 packets exist for request 18, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 18>42048,42035,535.18' for request #18
+[Bank Teller 1] Sent request #20
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #17
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 18>42008,42040,581.04' for request #18
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 18>42048,42035,535.18' for request #18
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #18
+[(Backup) DBMS (Processing Thread 0)] Committed request #18
+[DBMS (Processing Thread 0)] hasn't started request #19, skipping
+[DBMS (Processing Thread 3)] hasn't started request #19, skipping
+[DBMS (Processing Thread 2)] hasn't started request #19, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 19>42012,42064,521.76' for request #19
+[DBMS (Processing Thread 0)] Added update '<UPDATE 19>42040,42096,18.89' for request #19
+[DBMS (Processing Thread 0)] Added update '<UPDATE 19>42055,42049,46.82' for request #19
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #18
+[Bank Teller 2] Sent request #21
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 19>42012,42064,521.76' for request #19
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 19>42040,42096,18.89' for request #19
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 19>42055,42049,46.82' for request #19
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #19
+[(Backup) DBMS (Processing Thread 0)] Committed request #19
+[DBMS (Processing Thread 2)] hasn't started request #20, skipping
+[DBMS (Processing Thread 3)] 1 packets exist for request 20, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 20>42016,42089,58.59' for request #20
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #19
+[Bank Teller 3] Sent request #22
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 20>42016,42089,58.59' for request #20
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #20
+[(Backup) DBMS (Processing Thread 0)] Committed request #20
+[DBMS (Processing Thread 0)] hasn't started request #21, skipping
+[DBMS (Processing Thread 2)] hasn't started request #21, skipping
+[DBMS (Processing Thread 2)] hasn't started request #21, skipping
+[DBMS (Processing Thread 3)] hasn't started request #21, skipping
+[DBMS (Processing Thread 0)] hasn't started request #21, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 21>42046,42080,592.22' for request #21
+[DBMS (Processing Thread 3)] Added update '<UPDATE 21>42055,42047,261.16' for request #21
+[DBMS (Processing Thread 0)] Added update '<UPDATE 21>42030,42068,291.94' for request #21
+[DBMS (Processing Thread 0)] Added update '<UPDATE 21>42046,42017,506.54' for request #21
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 21>42046,42080,592.22' for request #21
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 21>42055,42047,261.16' for request #21
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 21>42030,42068,291.94' for request #21
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 21>42046,42017,506.54' for request #21
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #21
+[(Backup) DBMS (Processing Thread 0)] Committed request #21
+[DBMS (Processing Thread 2)] hasn't started request #22, skipping
+[DBMS (Processing Thread 0)] hasn't started request #22, skipping
+[DBMS (Processing Thread 2)] hasn't started request #22, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 22>42010,42030,224.89' for request #22
+[DBMS (Processing Thread 0)] Added update '<UPDATE 22>42056,42045,113.11' for request #22
+[DBMS (Processing Thread 0)] Added update '<UPDATE 22>42044,42010,608.07' for request #22
+[DBMS (Processing Thread 0)] Added update '<UPDATE 22>42046,42084,670.53' for request #22
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #20
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #21
+[Bank Teller 2] Sent request #23
+[Bank Teller 1] Sent request #24
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 22>42010,42030,224.89' for request #22
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 22>42056,42045,113.11' for request #22
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 22>42044,42010,608.07' for request #22
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 22>42046,42084,670.53' for request #22
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #22
+[(Backup) DBMS (Processing Thread 0)] Committed request #22
+[DBMS (Processing Thread 3)] hasn't started request #23, skipping
+[DBMS (Processing Thread 1)] hasn't started request #23, skipping
+[DBMS (Processing Thread 2)] hasn't started request #23, skipping
+[DBMS (Processing Thread 3)] hasn't started request #23, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 23>42046,42014,660.35' for request #23
+[DBMS (Processing Thread 1)] 2 packets exist for request 23, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 23>42037,42100,954.99' for request #23
+[DBMS (Processing Thread 2)] Added update '<UPDATE 23>42052,42047,924.45' for request #23
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #22
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 23>42046,42014,660.35' for request #23
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 23>42037,42100,954.99' for request #23
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 23>42052,42047,924.45' for request #23
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #23
+[(Backup) DBMS (Processing Thread 0)] Committed request #23
+[DBMS (Processing Thread 3)] hasn't started request #24, skipping
+[DBMS (Processing Thread 0)] 1 packets exist for request 24, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 24>42006,42014,55.08' for request #24
+[Bank Teller 0] Sent request #25
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #23
+[Bank Teller 2] Sent request #26
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 24>42006,42014,55.08' for request #24
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #24
+[(Backup) DBMS (Processing Thread 0)] Committed request #24
+[DBMS (Processing Thread 2)] hasn't started request #25, skipping
+[DBMS (Processing Thread 3)] hasn't started request #25, skipping
+[DBMS (Processing Thread 0)] hasn't started request #25, skipping
+[DBMS (Processing Thread 3)] hasn't started request #25, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 25>42035,42095,980.75' for request #25
+[DBMS (Processing Thread 2)] Added update '<UPDATE 25>42061,42031,810.48' for request #25
+[DBMS (Processing Thread 2)] Added update '<UPDATE 25>42090,42006,470.73' for request #25
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #24
+[Bank Teller 3] Sent request #27
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 25>42035,42095,980.75' for request #25
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 25>42061,42031,810.48' for request #25
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 25>42090,42006,470.73' for request #25
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #25
+[DBMS (Processing Thread 1)] hasn't started request #26, skipping
+[(Backup) DBMS (Processing Thread 0)] Committed request #25
+[DBMS (Processing Thread 1)] hasn't started request #26, skipping
+[DBMS (Processing Thread 2)] hasn't started request #26, skipping
+[DBMS (Processing Thread 1)] hasn't started request #26, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 26>42007,42072,505.34' for request #26
+[DBMS (Processing Thread 2)] Added update '<UPDATE 26>42078,42034,238.13' for request #26
+[DBMS (Processing Thread 0)] 2 packets exist for request 26, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 26>42083,42068,709.80' for request #26
+[DBMS (Processing Thread 2)] Added update '<UPDATE 26>42002,42038,146.64' for request #26
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 26>42007,42072,505.34' for request #26
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 26>42078,42034,238.13' for request #26
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 26>42083,42068,709.8' for request #26
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 26>42002,42038,146.64' for request #26
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #26
+[(Backup) DBMS (Processing Thread 0)] Committed request #26
+[DBMS (Processing Thread 0)] Added update '<UPDATE 27>42005,42079,211.62' for request #27
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 27>42005,42079,211.62' for request #27
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #27
+[(Backup) DBMS (Processing Thread 0)] Committed request #27
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #25
+[Bank Teller 0] Sent request #28
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #27
+[DBMS (Processing Thread 0)] Added update '<UPDATE 28>42006,42075,944.48' for request #28
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 28>42006,42075,944.48' for request #28
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #28
+[(Backup) DBMS (Processing Thread 0)] Committed request #28
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #26
+[Bank Teller 1] Sent request #29
+[DBMS (Processing Thread 1)] Added update '<UPDATE 29>42051,42022,896.61' for request #29
+[DBMS (Processing Thread 1)] Added update '<UPDATE 29>42060,42065,900.43' for request #29
+[DBMS (Processing Thread 1)] Added update '<UPDATE 29>42038,42032,315.87' for request #29
+[DBMS (Processing Thread 1)] Added update '<UPDATE 29>42048,42046,333.34' for request #29
+[Bank Teller 3] Sent request #30
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #28
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 29>42051,42022,896.61' for request #29
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 29>42060,42065,900.43' for request #29
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 29>42038,42032,315.87' for request #29
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 29>42048,42046,333.34' for request #29
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #29
+[(Backup) DBMS (Processing Thread 0)] Committed request #29
+[DBMS (Processing Thread 2)] hasn't started request #30, skipping
+[DBMS (Processing Thread 0)] hasn't started request #30, skipping
+[DBMS (Processing Thread 3)] hasn't started request #30, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 30>42048,42079,282.25' for request #30
+[DBMS (Processing Thread 3)] Added update '<UPDATE 30>42062,42041,723.15' for request #30
+[Bank Teller 2] Sent request #31
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #29
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 30>42048,42079,282.25' for request #30
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 30>42062,42041,723.15' for request #30
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #30
+[(Backup) DBMS (Processing Thread 0)] Committed request #30
+[DBMS (Processing Thread 1)] hasn't started request #31, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 31>42067,42063,425.41' for request #31
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 31>42067,42063,425.41' for request #31
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #31
+[(Backup) DBMS (Processing Thread 0)] Committed request #31
+[Bank Teller 0] Sent request #32
+[DBMS (Processing Thread 1)] Added update '<UPDATE 32>42034,42085,38.47' for request #32
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 32>42034,42085,38.47' for request #32
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #32
+[(Backup) DBMS (Processing Thread 0)] Committed request #32
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #31
+[Bank Teller 2] Sent request #33
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #30
+[DBMS (Processing Thread 2)] Added update '<UPDATE 33>42067,42064,93.80' for request #33
+[DBMS (Processing Thread 2)] Added update '<UPDATE 33>42053,42059,967.43' for request #33
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 33>42067,42064,93.8' for request #33
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 33>42053,42059,967.43' for request #33
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #33
+[(Backup) DBMS (Processing Thread 0)] Committed request #33
+[Bank Teller 3] Sent request #34
+[DBMS (Processing Thread 3)] Added update '<UPDATE 34>42034,42087,201.69' for request #34
+[DBMS (Processing Thread 3)] Added update '<UPDATE 34>42088,42058,897.11' for request #34
+[DBMS (Processing Thread 3)] Added update '<UPDATE 34>42010,42081,387.94' for request #34
+[DBMS (Processing Thread 3)] Added update '<UPDATE 34>42034,42014,961.92' for request #34
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #32
+[Bank Teller 0] Sent request #35
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #33
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 34>42034,42087,201.69' for request #34
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 34>42088,42058,897.11' for request #34
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 34>42010,42081,387.94' for request #34
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 34>42034,42014,961.92' for request #34
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #34
+[(Backup) DBMS (Processing Thread 0)] Committed request #34
+[DBMS (Processing Thread 2)] hasn't started request #35, skipping
+[DBMS (Processing Thread 0)] hasn't started request #35, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 35>42055,42036,774.55' for request #35
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 35>42055,42036,774.55' for request #35
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #35
+[(Backup) DBMS (Processing Thread 0)] Committed request #35
+[Bank Teller 1] Sent request #36
+[DBMS (Processing Thread 2)] Added update '<UPDATE 36>42090,42013,94.73' for request #36
+[DBMS (Processing Thread 2)] Added update '<UPDATE 36>42004,42069,2.93' for request #36
+[DBMS (Processing Thread 2)] Added update '<UPDATE 36>42092,42097,117.28' for request #36
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #35
+[Bank Teller 0] Sent request #37
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #34
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 36>42090,42013,94.73' for request #36
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 36>42004,42069,2.93' for request #36
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 36>42092,42097,117.28' for request #36
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #36
+[(Backup) DBMS (Processing Thread 0)] Committed request #36
+[DBMS (Processing Thread 1)] hasn't started request #37, skipping
+[DBMS (Processing Thread 0)] hasn't started request #37, skipping
+[DBMS (Processing Thread 3)] hasn't started request #37, skipping
+[DBMS (Processing Thread 1)] hasn't started request #37, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 37>42065,42086,638.29' for request #37
+[DBMS (Processing Thread 3)] 2 packets exist for request 37, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 37>42068,42022,468.23' for request #37
+[DBMS (Processing Thread 0)] Added update '<UPDATE 37>42017,42089,730.20' for request #37
+[Bank Teller 2] Sent request #38
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #36
+[Bank Teller 1] Sent request #39
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 37>42065,42086,638.29' for request #37
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 37>42068,42022,468.23' for request #37
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 37>42017,42089,730.2' for request #37
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #37
+[DBMS (Processing Thread 3)] hasn't started request #38, skipping
+[(Backup) DBMS (Processing Thread 0)] Committed request #37
+[DBMS (Processing Thread 2)] hasn't started request #38, skipping
+[DBMS (Processing Thread 3)] hasn't started request #38, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 38>42060,42031,422.69' for request #38
+[DBMS (Processing Thread 3)] 1 packets exist for request 38, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 38>42095,42045,575.14' for request #38
+[Bank Teller 3] Sent request #40
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #37
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 38>42060,42031,422.69' for request #38
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 38>42095,42045,575.14' for request #38
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #38
+[(Backup) DBMS (Processing Thread 0)] Committed request #38
+[DBMS (Processing Thread 0)] hasn't started request #39, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 39>42040,42022,995.95' for request #39
+[Bank Teller 0] Sent request #41
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #38
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 39>42040,42022,995.95' for request #39
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #39
+[(Backup) DBMS (Processing Thread 0)] Committed request #39
+[DBMS (Processing Thread 1)] hasn't started request #40, skipping
+[DBMS (Processing Thread 0)] hasn't started request #40, skipping
+[DBMS (Processing Thread 2)] 1 packets exist for request 40, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 40>42069,42023,967.98' for request #40
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 40>42069,42023,967.98' for request #40
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #40
+[(Backup) DBMS (Processing Thread 0)] Committed request #40
+[DBMS (Processing Thread 0)] hasn't started request #41, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 41>42098,42023,538.52' for request #41
+[DBMS (Processing Thread 1)] Added update '<UPDATE 41>42094,42007,802.82' for request #41
+[Bank Teller 2] Sent request #42
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #40
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 41>42098,42023,538.52' for request #41
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 41>42094,42007,802.82' for request #41
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #39
+[Bank Teller 1] Sent request #43
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #41
+[(Backup) DBMS (Processing Thread 0)] Committed request #41
+[DBMS (Processing Thread 0)] Added update '<UPDATE 42>42043,42088,86.73' for request #42
+[DBMS (Processing Thread 0)] Added update '<UPDATE 42>42084,42060,533.18' for request #42
+[DBMS (Processing Thread 0)] Added update '<UPDATE 42>42088,42079,551.08' for request #42
+[DBMS (Processing Thread 0)] Added update '<UPDATE 42>42019,42036,111.60' for request #42
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #41
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 42>42043,42088,86.73' for request #42
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 42>42084,42060,533.18' for request #42
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 42>42088,42079,551.08' for request #42
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 42>42019,42036,111.6' for request #42
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #42
+[(Backup) DBMS (Processing Thread 0)] Committed request #42
+[DBMS (Processing Thread 0)] hasn't started request #43, skipping
+[DBMS (Processing Thread 3)] hasn't started request #43, skipping
+[DBMS (Processing Thread 1)] hasn't started request #43, skipping
+[DBMS (Processing Thread 0)] hasn't started request #43, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 43>42069,42073,251.13' for request #43
+[DBMS (Processing Thread 3)] Added update '<UPDATE 43>42087,42078,324.85' for request #43
+[DBMS (Processing Thread 3)] Added update '<UPDATE 43>42017,42089,421.24' for request #43
+[DBMS (Processing Thread 3)] 1 packets exist for request 43, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 43>42020,42001,759.89' for request #43
+[Bank Teller 0] Sent request #44
+[Bank Teller 3] Sent request #45
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #42
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 43>42069,42073,251.13' for request #43
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 43>42087,42078,324.85' for request #43
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 43>42017,42089,421.24' for request #43
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 43>42020,42001,759.89' for request #43
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #43
+[(Backup) DBMS (Processing Thread 0)] Committed request #43
+[DBMS (Processing Thread 2)] hasn't started request #44, skipping
+[DBMS (Processing Thread 0)] hasn't started request #44, skipping
+[DBMS (Processing Thread 3)] hasn't started request #44, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 44>42098,42061,156.05' for request #44
+[DBMS (Processing Thread 0)] Added update '<UPDATE 44>42076,42058,937.71' for request #44
+[Bank Teller 2] Sent request #46
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #43
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 44>42098,42061,156.05' for request #44
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 44>42076,42058,937.71' for request #44
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #44
+[(Backup) DBMS (Processing Thread 0)] Committed request #44
+[DBMS (Processing Thread 2)] hasn't started request #45, skipping
+[DBMS (Processing Thread 1)] hasn't started request #45, skipping
+[DBMS (Processing Thread 3)] 2 packets exist for request 45, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 45>42009,42057,3.03' for request #45
+[DBMS (Processing Thread 1)] Added update '<UPDATE 45>42091,42021,329.04' for request #45
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #44
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 45>42009,42057,3.03' for request #45
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 45>42091,42021,329.04' for request #45
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #45
+[(Backup) DBMS (Processing Thread 0)] Committed request #45
+[DBMS (Processing Thread 0)] Added update '<UPDATE 46>42039,42098,64.22' for request #46
+[DBMS (Processing Thread 0)] 1 packets exist for request 46, not committing yet.
+[Bank Teller 1] Sent request #47
+[DBMS (Processing Thread 3)] Added update '<UPDATE 46>42060,42040,459.76' for request #46
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 46>42039,42098,64.22' for request #46
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 46>42060,42040,459.76' for request #46
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #46
+[(Backup) DBMS (Processing Thread 0)] Committed request #46
+[DBMS (Processing Thread 3)] hasn't started request #47, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 47>42088,42091,771.53' for request #47
+[DBMS (Processing Thread 0)] Added update '<UPDATE 47>42067,42065,211.97' for request #47
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #45
+[Bank Teller 3] Sent request #48
+[Bank Teller 0] Sent request #49
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 47>42088,42091,771.53' for request #47
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 47>42067,42065,211.97' for request #47
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #47
+[(Backup) DBMS (Processing Thread 0)] Committed request #47
+[DBMS (Processing Thread 1)] hasn't started request #48, skipping
+[DBMS (Processing Thread 3)] hasn't started request #48, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 48>42082,42013,285.09' for request #48
+[DBMS (Processing Thread 3)] Added update '<UPDATE 48>42080,42077,867.27' for request #48
+[DBMS (Processing Thread 3)] Added update '<UPDATE 48>42039,42072,34.08' for request #48
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #46
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 48>42082,42013,285.09' for request #48
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 48>42080,42077,867.27' for request #48
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 48>42039,42072,34.08' for request #48
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #48
+[(Backup) DBMS (Processing Thread 0)] Committed request #48
+[DBMS (Processing Thread 2)] Added update '<UPDATE 49>42046,42044,445.53' for request #49
+[DBMS (Processing Thread 2)] Added update '<UPDATE 49>42024,42092,285.56' for request #49
+[Bank Teller 2] Sent request #50
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #47
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #48
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 49>42046,42044,445.53' for request #49
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 49>42024,42092,285.56' for request #49
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #49
+[(Backup) DBMS (Processing Thread 0)] Committed request #49
+[DBMS (Processing Thread 0)] hasn't started request #50, skipping
+[DBMS (Processing Thread 1)] hasn't started request #50, skipping
+[DBMS (Processing Thread 3)] 1 packets exist for request 50, not committing yet.
+[DBMS (Processing Thread 1)] Req #50 has not cached any update packets. Not committing
+[DBMS (Processing Thread 3)] Added update '<UPDATE 50>42057,42075,57.91' for request #50
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 50>42057,42075,57.91' for request #50
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #50
+[(Backup) DBMS (Processing Thread 0)] Committed request #50
+[Bank Teller 1] Sent request #51
+[DBMS (Processing Thread 1)] Added update '<UPDATE 51>42084,42096,747.55' for request #51
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #49
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 51>42084,42096,747.55' for request #51
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #51
+[(Backup) DBMS (Processing Thread 0)] Committed request #51
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #50
+[Bank Teller 2] Sent request #52
+[DBMS (Processing Thread 2)] Added update '<UPDATE 52>42054,42017,852.38' for request #52
+[DBMS (Processing Thread 2)] Added update '<UPDATE 52>42056,42099,924.75' for request #52
+[DBMS (Processing Thread 2)] Added update '<UPDATE 52>42099,42026,388.61' for request #52
+[DBMS (Processing Thread 2)] Added update '<UPDATE 52>42082,42060,358.09' for request #52
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #51
+[Bank Teller 1] Sent request #53
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 52>42054,42017,852.38' for request #52
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 52>42056,42099,924.75' for request #52
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 52>42099,42026,388.61' for request #52
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 52>42082,42060,358.09' for request #52
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #52
+[(Backup) DBMS (Processing Thread 0)] Committed request #52
+[DBMS (Processing Thread 1)] hasn't started request #53, skipping
+[DBMS (Processing Thread 3)] hasn't started request #53, skipping
+[DBMS (Processing Thread 0)] hasn't started request #53, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 53>42095,42057,947.78' for request #53
+[DBMS (Processing Thread 0)] Added update '<UPDATE 53>42097,42050,213.07' for request #53
+[Bank Teller 3] Sent request #54
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #52
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 53>42095,42057,947.78' for request #53
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 53>42097,42050,213.07' for request #53
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #53
+[(Backup) DBMS (Processing Thread 0)] Committed request #53
+[DBMS (Processing Thread 1)] hasn't started request #54, skipping
+[DBMS (Processing Thread 0)] hasn't started request #54, skipping
+[DBMS (Processing Thread 2)] hasn't started request #54, skipping
+[DBMS (Processing Thread 1)] 2 packets exist for request 54, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 54>42016,42012,822.42' for request #54
+[DBMS (Processing Thread 0)] Added update '<UPDATE 54>42096,42053,790.05' for request #54
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 54>42016,42012,822.42' for request #54
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 54>42096,42053,790.05' for request #54
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #54
+[(Backup) DBMS (Processing Thread 0)] Committed request #54
+[Bank Teller 0] Sent request #55
+[DBMS (Processing Thread 1)] Added update '<UPDATE 55>42069,42021,737.59' for request #55
+[DBMS (Processing Thread 1)] Added update '<UPDATE 55>42009,42096,986.67' for request #55
+[DBMS (Processing Thread 1)] Added update '<UPDATE 55>42024,42090,493.91' for request #55
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #54
+[Bank Teller 3] Sent request #56
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #53
+[Bank Teller 1] Sent request #57
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 55>42069,42021,737.59' for request #55
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 55>42009,42096,986.67' for request #55
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 55>42024,42090,493.91' for request #55
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #55
+[(Backup) DBMS (Processing Thread 0)] Committed request #55
+[DBMS (Processing Thread 2)] hasn't started request #56, skipping
+[DBMS (Processing Thread 0)] hasn't started request #56, skipping
+[DBMS (Processing Thread 3)] hasn't started request #56, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 56>42007,42027,195.90' for request #56
+[DBMS (Processing Thread 3)] Added update '<UPDATE 56>42084,42051,109.58' for request #56
+[Bank Teller 2] Sent request #58
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #55
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 56>42007,42027,195.9' for request #56
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 56>42084,42051,109.58' for request #56
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #56
+[(Backup) DBMS (Processing Thread 0)] Committed request #56
+[DBMS (Processing Thread 0)] hasn't started request #57, skipping
+[DBMS (Processing Thread 2)] hasn't started request #57, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 57>42049,42065,513.84' for request #57
+[DBMS (Processing Thread 2)] Added update '<UPDATE 57>42028,42001,380.67' for request #57
+[DBMS (Processing Thread 0)] Added update '<UPDATE 57>42044,42048,879.15' for request #57
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[Bank Teller 3] Sent request #59
+[DBMS (Processing Thread 3)] Committed request #56
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 57>42049,42065,513.84' for request #57
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 57>42028,42001,380.67' for request #57
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 57>42044,42048,879.15' for request #57
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #57
+[(Backup) DBMS (Processing Thread 0)] Committed request #57
+[DBMS (Processing Thread 0)] Added update '<UPDATE 58>42060,42087,707.60' for request #58
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 58>42060,42087,707.6' for request #58
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #58
+[(Backup) DBMS (Processing Thread 0)] Committed request #58
+[DBMS (Processing Thread 2)] hasn't started request #59, skipping
+[DBMS (Processing Thread 3)] 3 packets exist for request 59, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 59>42017,42096,905.10' for request #59
+[DBMS (Processing Thread 2)] Added update '<UPDATE 59>42079,42037,552.37' for request #59
+[DBMS (Processing Thread 3)] Added update '<UPDATE 59>42009,42042,992.11' for request #59
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #57
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #58
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 59>42017,42096,905.1' for request #59
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 59>42079,42037,552.37' for request #59
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 59>42009,42042,992.11' for request #59
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #59
+[(Backup) DBMS (Processing Thread 0)] Committed request #59
+[Bank Teller 0] Sent request #60
+[DBMS (Processing Thread 0)] Added update '<UPDATE 60>42001,42006,139.38' for request #60
+[DBMS (Processing Thread 0)] Added update '<UPDATE 60>42073,42043,743.81' for request #60
+[Bank Teller 2] Sent request #61
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 60>42001,42006,139.38' for request #60
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 60>42073,42043,743.81' for request #60
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #60
+[(Backup) DBMS (Processing Thread 0)] Committed request #60
+[DBMS (Processing Thread 3)] hasn't started request #61, skipping
+[DBMS (Processing Thread 1)] hasn't started request #61, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 61>42025,42021,686.04' for request #61
+[DBMS (Processing Thread 3)] Added update '<UPDATE 61>42049,42098,852.84' for request #61
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #59
+[Bank Teller 1] Sent request #62
+[Bank Teller 3] Sent request #63
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #60
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 61>42025,42021,686.04' for request #61
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 61>42049,42098,852.84' for request #61
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #61
+[(Backup) DBMS (Processing Thread 0)] Committed request #61
+[DBMS (Processing Thread 2)] Added update '<UPDATE 62>42012,42053,391.17' for request #62
+[DBMS (Processing Thread 2)] 2 packets exist for request 62, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 62>42017,42013,31.87' for request #62
+[DBMS (Processing Thread 3)] Added update '<UPDATE 62>42097,42012,339.00' for request #62
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 62>42012,42053,391.17' for request #62
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 62>42017,42013,31.87' for request #62
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 62>42097,42012,339.0' for request #62
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #62
+[(Backup) DBMS (Processing Thread 0)] Committed request #62
+[DBMS (Processing Thread 2)] Added update '<UPDATE 63>42089,42085,716.40' for request #63
+[DBMS (Processing Thread 2)] Added update '<UPDATE 63>42063,42020,13.33' for request #63
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #61
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 63>42089,42085,716.4' for request #63
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 63>42063,42020,13.33' for request #63
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #63
+[(Backup) DBMS (Processing Thread 0)] Committed request #63
+[Bank Teller 0] Sent request #64
+[DBMS (Processing Thread 0)] Added update '<UPDATE 64>42074,42031,306.39' for request #64
+[DBMS (Processing Thread 0)] Added update '<UPDATE 64>42009,42082,649.39' for request #64
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #62
+[Bank Teller 1] Sent request #65
+[Bank Teller 2] Sent request #66
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #63
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 64>42074,42031,306.39' for request #64
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 64>42009,42082,649.39' for request #64
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #64
+[(Backup) DBMS (Processing Thread 0)] Committed request #64
+[DBMS (Processing Thread 2)] hasn't started request #65, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 65>42012,42036,279.99' for request #65
+[DBMS (Processing Thread 3)] Added update '<UPDATE 65>42023,42001,679.23' for request #65
+[DBMS (Processing Thread 1)] 2 packets exist for request 65, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 65>42094,42028,410.85' for request #65
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #64
+[Bank Teller 0] Sent request #67
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 65>42012,42036,279.99' for request #65
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 65>42023,42001,679.23' for request #65
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 65>42094,42028,410.85' for request #65
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #65
+[(Backup) DBMS (Processing Thread 0)] Committed request #65
+[DBMS (Processing Thread 2)] Added update '<UPDATE 66>42088,42082,329.40' for request #66
+[DBMS (Processing Thread 3)] Added update '<UPDATE 66>42091,42046,51.69' for request #66
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #65
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 66>42088,42082,329.4' for request #66
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 66>42091,42046,51.69' for request #66
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #66
+[(Backup) DBMS (Processing Thread 0)] Committed request #66
+[DBMS (Processing Thread 3)] hasn't started request #67, skipping
+[DBMS (Processing Thread 1)] hasn't started request #67, skipping
+[DBMS (Processing Thread 2)] 2 packets exist for request 67, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 67>42073,42092,227.58' for request #67
+[DBMS (Processing Thread 3)] Added update '<UPDATE 67>42004,42022,18.32' for request #67
+[Bank Teller 3] Sent request #68
+[Bank Teller 1] Sent request #69
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #66
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 67>42073,42092,227.58' for request #67
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 67>42004,42022,18.32' for request #67
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #67
+[(Backup) DBMS (Processing Thread 0)] Committed request #67
+[DBMS (Processing Thread 1)] hasn't started request #68, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 68>42026,42022,254.79' for request #68
+[DBMS (Processing Thread 1)] Added update '<UPDATE 68>42071,42015,82.77' for request #68
+[DBMS (Processing Thread 2)] 1 packets exist for request 68, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 68>42093,42035,327.35' for request #68
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #67
+[Bank Teller 0] Sent request #70
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 68>42026,42022,254.79' for request #68
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 68>42071,42015,82.77' for request #68
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 68>42093,42035,327.35' for request #68
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #68
+[(Backup) DBMS (Processing Thread 0)] Committed request #68
+[DBMS (Processing Thread 2)] hasn't started request #69, skipping
+[DBMS (Processing Thread 3)] hasn't started request #69, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 69>42003,42071,968.08' for request #69
+[DBMS (Processing Thread 3)] 2 packets exist for request 69, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 69>42034,42020,850.14' for request #69
+[DBMS (Processing Thread 0)] Added update '<UPDATE 69>42068,42099,227.03' for request #69
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #68
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 69>42003,42071,968.08' for request #69
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 69>42034,42020,850.14' for request #69
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 69>42068,42099,227.03' for request #69
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #69
+[(Backup) DBMS (Processing Thread 0)] Committed request #69
+[DBMS (Processing Thread 0)] hasn't started request #70, skipping
+[DBMS (Processing Thread 2)] hasn't started request #70, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 70>42033,42011,396.65' for request #70
+[DBMS (Processing Thread 1)] Added update '<UPDATE 70>42042,42045,226.75' for request #70
+[Bank Teller 2] Sent request #71
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #69
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 70>42033,42011,396.65' for request #70
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 70>42042,42045,226.75' for request #70
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #70
+[(Backup) DBMS (Processing Thread 0)] Committed request #70
+[DBMS (Processing Thread 3)] hasn't started request #71, skipping
+[DBMS (Processing Thread 2)] hasn't started request #71, skipping
+[DBMS (Processing Thread 0)] hasn't started request #71, skipping
+[DBMS (Processing Thread 0)] hasn't started request #71, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 71>42057,42096,698.46' for request #71
+[DBMS (Processing Thread 3)] Added update '<UPDATE 71>42068,42081,430.68' for request #71
+[DBMS (Processing Thread 2)] Added update '<UPDATE 71>42065,42074,929.13' for request #71
+[Bank Teller 3] Sent request #72
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #70
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 71>42068,42081,430.68' for request #71
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 71>42057,42096,698.46' for request #71
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 71>42065,42074,929.13' for request #71
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #71
+[(Backup) DBMS (Processing Thread 0)] Committed request #71
+[DBMS (Processing Thread 0)] hasn't started request #72, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 72>42040,42041,957.35' for request #72
+[DBMS (Processing Thread 2)] Added update '<UPDATE 72>42080,42095,963.62' for request #72
+[Bank Teller 1] Sent request #73
+[Bank Teller 0] Sent request #74
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #71
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 72>42040,42041,957.35' for request #72
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 72>42080,42095,963.62' for request #72
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #72
+[(Backup) DBMS (Processing Thread 0)] Committed request #72
+[DBMS (Processing Thread 1)] hasn't started request #73, skipping
+[DBMS (Processing Thread 3)] hasn't started request #73, skipping
+[DBMS (Processing Thread 0)] hasn't started request #73, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 73>42008,42021,122.09' for request #73
+[DBMS (Processing Thread 1)] Added update '<UPDATE 73>42038,42065,213.78' for request #73
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #72
+[Bank Teller 3] Sent request #75
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 73>42008,42021,122.09' for request #73
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 73>42038,42065,213.78' for request #73
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #73
+[(Backup) DBMS (Processing Thread 0)] Committed request #73
+[DBMS (Processing Thread 2)] Added update '<UPDATE 74>42012,42014,546.64' for request #74
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 74>42012,42014,546.64' for request #74
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #74
+[(Backup) DBMS (Processing Thread 0)] Committed request #74
+[DBMS (Processing Thread 1)] hasn't started request #75, skipping
+[DBMS (Processing Thread 2)] hasn't started request #75, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 75>42064,42073,124.16' for request #75
+[DBMS (Processing Thread 1)] Added update '<UPDATE 75>42100,42012,67.84' for request #75
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #73
+[Bank Teller 1] Sent request #76
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #74
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 75>42064,42073,124.16' for request #75
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 75>42100,42012,67.84' for request #75
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #75
+[(Backup) DBMS (Processing Thread 0)] Committed request #75
+[DBMS (Processing Thread 1)] hasn't started request #76, skipping
+[DBMS (Processing Thread 3)] hasn't started request #76, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 76>42017,42073,822.16' for request #76
+[Bank Teller 0] Sent request #77
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #75
+[Bank Teller 3] Sent request #78
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 76>42017,42073,822.16' for request #76
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #76
+[(Backup) DBMS (Processing Thread 0)] Committed request #76
+[DBMS (Processing Thread 3)] hasn't started request #77, skipping
+[DBMS (Processing Thread 1)] hasn't started request #77, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 77>42045,42085,707.48' for request #77
+[DBMS (Processing Thread 3)] Added update '<UPDATE 77>42023,42082,963.07' for request #77
+[DBMS (Processing Thread 3)] 1 packets exist for request 77, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 77>42012,42064,639.24' for request #77
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 77>42045,42085,707.48' for request #77
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 77>42023,42082,963.07' for request #77
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 77>42012,42064,639.24' for request #77
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #77
+[(Backup) DBMS (Processing Thread 0)] Committed request #77
+[DBMS (Processing Thread 3)] hasn't started request #78, skipping
+[DBMS (Processing Thread 2)] hasn't started request #78, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 78>42089,42071,233.67' for request #78
+[DBMS (Processing Thread 3)] 1 packets exist for request 78, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 78>42089,42079,274.36' for request #78
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 78>42089,42071,233.67' for request #78
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 78>42089,42079,274.36' for request #78
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #78
+[(Backup) DBMS (Processing Thread 0)] Committed request #78
+[Bank Teller 2] Sent request #79
+[DBMS (Processing Thread 3)] Added update '<UPDATE 79>42001,42041,999.28' for request #79
+[DBMS (Processing Thread 3)] Added update '<UPDATE 79>42021,42011,950.40' for request #79
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #76
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #77
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #78
+[Bank Teller 1] Sent request #80
+[Bank Teller 3] Sent request #81
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 79>42001,42041,999.28' for request #79
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 79>42021,42011,950.4' for request #79
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #79
+[(Backup) DBMS (Processing Thread 0)] Committed request #79
+[DBMS (Processing Thread 2)] Added update '<UPDATE 80>42090,42015,924.97' for request #80
+[DBMS (Processing Thread 2)] Added update '<UPDATE 80>42036,42057,50.30' for request #80
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 80>42090,42015,924.97' for request #80
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 80>42036,42057,50.3' for request #80
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #80
+[(Backup) DBMS (Processing Thread 0)] Committed request #80
+[DBMS (Processing Thread 1)] Added update '<UPDATE 81>42034,42011,383.60' for request #81
+[DBMS (Processing Thread 1)] Added update '<UPDATE 81>42032,42045,559.43' for request #81
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #79
+[Bank Teller 2] Sent request #82
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #80
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 81>42034,42011,383.6' for request #81
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 81>42032,42045,559.43' for request #81
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #81
+[(Backup) DBMS (Processing Thread 0)] Committed request #81
+[DBMS (Processing Thread 3)] hasn't started request #82, skipping
+[DBMS (Processing Thread 2)] hasn't started request #82, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 82>42031,42086,580.45' for request #82
+[DBMS (Processing Thread 0)] Added update '<UPDATE 82>42038,42006,38.16' for request #82
+[DBMS (Processing Thread 0)] Added update '<UPDATE 82>42037,42036,436.56' for request #82
+[Bank Teller 1] Sent request #83
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #81
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 82>42031,42086,580.45' for request #82
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 82>42038,42006,38.16' for request #82
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 82>42037,42036,436.56' for request #82
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #82
+[(Backup) DBMS (Processing Thread 0)] Committed request #82
+[DBMS (Processing Thread 3)] hasn't started request #83, skipping
+[DBMS (Processing Thread 1)] hasn't started request #83, skipping
+[DBMS (Processing Thread 2)] hasn't started request #83, skipping
+[DBMS (Processing Thread 3)] hasn't started request #83, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 83>42056,42064,993.53' for request #83
+[DBMS (Processing Thread 1)] Added update '<UPDATE 83>42064,42053,547.45' for request #83
+[DBMS (Processing Thread 1)] 1 packets exist for request 83, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 83>42054,42031,926.64' for request #83
+[Bank Teller 0] Sent request #84
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #82
+[Bank Teller 3] Sent request #85
+[Bank Teller 2] Sent request #86
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 83>42056,42064,993.53' for request #83
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 83>42064,42053,547.45' for request #83
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 83>42054,42031,926.64' for request #83
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #83
+[(Backup) DBMS (Processing Thread 0)] Committed request #83
+[DBMS (Processing Thread 1)] hasn't started request #84, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 84>42001,42063,793.65' for request #84
+[DBMS (Processing Thread 0)] Added update '<UPDATE 84>42095,42007,195.98' for request #84
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 84>42001,42063,793.65' for request #84
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 84>42095,42007,195.98' for request #84
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #84
+[(Backup) DBMS (Processing Thread 0)] Committed request #84
+[DBMS (Processing Thread 3)] hasn't started request #85, skipping
+[DBMS (Processing Thread 1)] hasn't started request #85, skipping
+[DBMS (Processing Thread 1)] hasn't started request #85, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 85>42036,42018,316.62' for request #85
+[DBMS (Processing Thread 1)] Added update '<UPDATE 85>42077,42053,535.55' for request #85
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #83
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #84
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 85>42036,42018,316.62' for request #85
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 85>42077,42053,535.55' for request #85
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #85
+[(Backup) DBMS (Processing Thread 0)] Committed request #85
+[DBMS (Processing Thread 1)] hasn't started request #86, skipping
+[DBMS (Processing Thread 2)] hasn't started request #86, skipping
+[DBMS (Processing Thread 0)] hasn't started request #86, skipping
+[DBMS (Processing Thread 1)] hasn't started request #86, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 86>42052,42074,524.00' for request #86
+[DBMS (Processing Thread 2)] 1 packets exist for request 86, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 86>42088,42019,773.21' for request #86
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 86>42052,42074,524.0' for request #86
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 86>42088,42019,773.21' for request #86
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #86
+[(Backup) DBMS (Processing Thread 0)] Committed request #86
+[Bank Teller 0] Sent request #87
+[DBMS (Processing Thread 2)] Added update '<UPDATE 87>42089,42029,496.04' for request #87
+[DBMS (Processing Thread 2)] Added update '<UPDATE 87>42063,42069,236.10' for request #87
+[DBMS (Processing Thread 1)] Added update '<UPDATE 87>42083,42097,325.00' for request #87
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #86
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #85
+[Bank Teller 3] Sent request #88
+[Bank Teller 2] Sent request #89
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 87>42089,42029,496.04' for request #87
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 87>42083,42097,325.0' for request #87
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 87>42063,42069,236.1' for request #87
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #87
+[(Backup) DBMS (Processing Thread 0)] Committed request #87
+[DBMS (Processing Thread 0)] hasn't started request #88, skipping
+[DBMS (Processing Thread 0)] hasn't started request #88, skipping
+[DBMS (Processing Thread 3)] hasn't started request #88, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 88>42041,42064,772.92' for request #88
+[DBMS (Processing Thread 0)] Added update '<UPDATE 88>42083,42046,894.84' for request #88
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #87
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 88>42041,42064,772.92' for request #88
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 88>42083,42046,894.84' for request #88
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #88
+[(Backup) DBMS (Processing Thread 0)] Committed request #88
+[DBMS (Processing Thread 1)] 1 packets exist for request 89, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 89>42035,42038,338.73' for request #89
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 89>42035,42038,338.73' for request #89
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #89
+[(Backup) DBMS (Processing Thread 0)] Committed request #89
+[Bank Teller 1] Sent request #90
+[DBMS (Processing Thread 1)] Added update '<UPDATE 90>42056,42098,577.05' for request #90
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #88
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #89
+[Bank Teller 2] Sent request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 90>42056,42098,577.05' for request #90
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #90
+[(Backup) DBMS (Processing Thread 0)] Committed request #90
+[DBMS (Processing Thread 2)] hasn't started request #91, skipping
+[DBMS (Processing Thread 3)] hasn't started request #91, skipping
+[DBMS (Processing Thread 0)] hasn't started request #91, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 91>42013,42039,605.86' for request #91
+[DBMS (Processing Thread 2)] Added update '<UPDATE 91>42051,42084,480.50' for request #91
+[DBMS (Processing Thread 2)] Added update '<UPDATE 91>42080,42010,825.03' for request #91
+[DBMS (Processing Thread 2)] Added update '<UPDATE 91>42021,42087,459.64' for request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 91>42013,42039,605.86' for request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 91>42051,42084,480.5' for request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 91>42080,42010,825.03' for request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 91>42021,42087,459.64' for request #91
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #91
+[(Backup) DBMS (Processing Thread 0)] Committed request #91
+[Bank Teller 0] Sent request #92
+[DBMS (Processing Thread 0)] Added update '<UPDATE 92>42088,42060,702.00' for request #92
+[DBMS (Processing Thread 0)] Added update '<UPDATE 92>42002,42076,912.70' for request #92
+[Bank Teller 3] Sent request #93
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #90
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #91
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 92>42088,42060,702.0' for request #92
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 92>42002,42076,912.7' for request #92
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #92
+[(Backup) DBMS (Processing Thread 0)] Committed request #92
+[Bank Teller 2] Sent request #94
+[DBMS (Processing Thread 2)] hasn't started request #93, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 93>42022,42083,994.72' for request #93
+[DBMS (Processing Thread 1)] 1 packets exist for request 93, not committing yet.
+[DBMS (Processing Thread 2)] Added update '<UPDATE 93>42032,42029,927.96' for request #93
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #92
+[Bank Teller 0] Sent request #95
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 93>42022,42083,994.72' for request #93
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 93>42032,42029,927.96' for request #93
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #93
+[(Backup) DBMS (Processing Thread 0)] Committed request #93
+[DBMS (Processing Thread 0)] hasn't started request #94, skipping
+[DBMS (Processing Thread 0)] hasn't started request #94, skipping
+[DBMS (Processing Thread 3)] hasn't started request #94, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 94>42022,42001,151.13' for request #94
+[DBMS (Processing Thread 3)] 1 packets exist for request 94, not committing yet.
+[DBMS (Processing Thread 1)] Added update '<UPDATE 94>42068,42047,906.92' for request #94
+[Bank Teller 1] Sent request #96
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #93
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 94>42022,42001,151.13' for request #94
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 94>42068,42047,906.92' for request #94
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #94
+[(Backup) DBMS (Processing Thread 0)] Committed request #94
+[DBMS (Processing Thread 3)] hasn't started request #95, skipping
+[DBMS (Processing Thread 2)] hasn't started request #95, skipping
+[DBMS (Processing Thread 0)] hasn't started request #95, skipping
+[DBMS (Processing Thread 3)] hasn't started request #95, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 95>42026,42075,114.08' for request #95
+[DBMS (Processing Thread 3)] Added update '<UPDATE 95>42096,42070,281.45' for request #95
+[DBMS (Processing Thread 3)] Added update '<UPDATE 95>42008,42062,790.78' for request #95
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #94
+[Bank Teller 2] Sent request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 95>42026,42075,114.08' for request #95
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 95>42096,42070,281.45' for request #95
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 95>42008,42062,790.78' for request #95
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #95
+[(Backup) DBMS (Processing Thread 0)] Committed request #95
+[DBMS (Processing Thread 2)] Added update '<UPDATE 96>42009,42003,841.95' for request #96
+[DBMS (Processing Thread 2)] Added update '<UPDATE 96>42046,42001,850.85' for request #96
+[DBMS (Processing Thread 2)] Added update '<UPDATE 96>42100,42064,41.87' for request #96
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #95
+[Bank Teller 3] Sent request #98
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 96>42009,42003,841.95' for request #96
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 96>42046,42001,850.85' for request #96
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 96>42100,42064,41.87' for request #96
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #96
+[(Backup) DBMS (Processing Thread 0)] Committed request #96
+[DBMS (Processing Thread 3)] hasn't started request #97, skipping
+[DBMS (Processing Thread 2)] hasn't started request #97, skipping
+[DBMS (Processing Thread 1)] hasn't started request #97, skipping
+[DBMS (Processing Thread 3)] hasn't started request #97, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 97>42039,42064,531.97' for request #97
+[DBMS (Processing Thread 1)] Added update '<UPDATE 97>42012,42001,687.68' for request #97
+[DBMS (Processing Thread 1)] Added update '<UPDATE 97>42087,42086,943.11' for request #97
+[DBMS (Processing Thread 1)] Added update '<UPDATE 97>42099,42091,931.76' for request #97
+[DBMS (Processing Thread 1)] Added update '<UPDATE 97>42094,42048,371.19' for request #97
+[Bank Teller 0] Sent request #99
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #96
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 97>42039,42064,531.97' for request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 97>42012,42001,687.68' for request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 97>42087,42086,943.11' for request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 97>42099,42091,931.76' for request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 97>42094,42048,371.19' for request #97
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #97
+[(Backup) DBMS (Processing Thread 0)] Committed request #97
+[DBMS (Processing Thread 3)] Added update '<UPDATE 98>42059,42100,671.12' for request #98
+[DBMS (Processing Thread 3)] Added update '<UPDATE 98>42089,42028,118.26' for request #98
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #97
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 98>42059,42100,671.12' for request #98
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 98>42089,42028,118.26' for request #98
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #98
+[(Backup) DBMS (Processing Thread 0)] Committed request #98
+[DBMS (Processing Thread 0)] hasn't started request #99, skipping
+[DBMS (Processing Thread 2)] hasn't started request #99, skipping
+[DBMS (Processing Thread 3)] hasn't started request #99, skipping
+[DBMS (Processing Thread 0)] hasn't started request #99, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 99>42020,42015,437.40' for request #99
+[DBMS (Processing Thread 2)] Added update '<UPDATE 99>42075,42091,60.93' for request #99
+[DBMS (Processing Thread 3)] Added update '<UPDATE 99>42082,42091,342.64' for request #99
+[DBMS (Processing Thread 2)] Added update '<UPDATE 99>42053,42064,594.69' for request #99
+[DBMS (Processing Thread 3)] Added update '<UPDATE 99>42060,42074,923.31' for request #99
+[Bank Teller 2] Sent request #100
+[Bank Teller 1] Sent request #101
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #98
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 99>42020,42015,437.4' for request #99
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 99>42075,42091,60.93' for request #99
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 99>42082,42091,342.64' for request #99
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 99>42053,42064,594.69' for request #99
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 99>42060,42074,923.31' for request #99
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #99
+[(Backup) DBMS (Processing Thread 0)] Committed request #99
+[DBMS (Processing Thread 1)] hasn't started request #100, skipping
+[DBMS (Processing Thread 3)] hasn't started request #100, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 100>42086,42022,696.26' for request #100
+[DBMS (Processing Thread 0)] Added update '<UPDATE 100>42070,42038,844.09' for request #100
+[DBMS (Processing Thread 3)] Added update '<UPDATE 100>42037,42091,124.23' for request #100
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #99
+[Bank Teller 0] Sent request #102
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 100>42086,42022,696.26' for request #100
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 100>42070,42038,844.09' for request #100
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 100>42037,42091,124.23' for request #100
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #100
+[(Backup) DBMS (Processing Thread 0)] Committed request #100
+[DBMS (Processing Thread 3)] hasn't started request #101, skipping
+[DBMS (Processing Thread 0)] hasn't started request #101, skipping
+[DBMS (Processing Thread 3)] hasn't started request #101, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 101>42080,42022,306.27' for request #101
+[DBMS (Processing Thread 2)] Added update '<UPDATE 101>42023,42092,380.47' for request #101
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #100
+[Bank Teller 3] Sent request #103
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 101>42080,42022,306.27' for request #101
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 101>42023,42092,380.47' for request #101
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #101
+[(Backup) DBMS (Processing Thread 0)] Committed request #101
+[DBMS (Processing Thread 2)] hasn't started request #102, skipping
+[DBMS (Processing Thread 3)] 1 packets exist for request 102, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 102>42097,42047,158.94' for request #102
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 102>42097,42047,158.94' for request #102
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #102
+[(Backup) DBMS (Processing Thread 0)] Committed request #102
+[DBMS (Processing Thread 2)] Added update '<UPDATE 103>42022,42028,73.73' for request #103
+[DBMS (Processing Thread 1)] Added update '<UPDATE 103>42037,42011,631.85' for request #103
+[DBMS (Processing Thread 2)] Added update '<UPDATE 103>42057,42093,929.56' for request #103
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #101
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #102
+[Bank Teller 0] Sent request #104
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 103>42022,42028,73.73' for request #103
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 103>42037,42011,631.85' for request #103
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 103>42057,42093,929.56' for request #103
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #103
+[(Backup) DBMS (Processing Thread 0)] Committed request #103
+[DBMS (Processing Thread 2)] Added update '<UPDATE 104>42084,42064,290.29' for request #104
+[DBMS (Processing Thread 3)] Added update '<UPDATE 104>42029,42035,381.13' for request #104
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 104>42084,42064,290.29' for request #104
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 104>42029,42035,381.13' for request #104
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #104
+[(Backup) DBMS (Processing Thread 0)] Committed request #104
+[Bank Teller 2] Sent request #105
+[DBMS (Processing Thread 0)] hasn't started request #105, skipping
+[DBMS (Processing Thread 3)] 1 packets exist for request 105, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 105>42026,42097,423.83' for request #105
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #104
+[Bank Teller 0] Sent request #106
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #103
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 105>42026,42097,423.83' for request #105
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #105
+[(Backup) DBMS (Processing Thread 0)] Committed request #105
+[DBMS (Processing Thread 2)] hasn't started request #106, skipping
+[DBMS (Processing Thread 1)] hasn't started request #106, skipping
+[DBMS (Processing Thread 3)] hasn't started request #106, skipping
+[DBMS (Processing Thread 2)] Added update '<UPDATE 106>42080,42099,443.90' for request #106
+[DBMS (Processing Thread 2)] Added update '<UPDATE 106>42040,42085,378.74' for request #106
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 106>42080,42099,443.9' for request #106
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 106>42040,42085,378.74' for request #106
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #106
+[(Backup) DBMS (Processing Thread 0)] Committed request #106
+[Bank Teller 3] Sent request #107
+[DBMS (Processing Thread 3)] Added update '<UPDATE 107>42022,42072,720.45' for request #107
+[DBMS (Processing Thread 3)] Added update '<UPDATE 107>42007,42029,567.28' for request #107
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 107>42022,42072,720.45' for request #107
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 107>42007,42029,567.28' for request #107
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #107
+[(Backup) DBMS (Processing Thread 0)] Committed request #107
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #105
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #106
+[Bank Teller 0] Sent request #108
+[DBMS (Processing Thread 0)] Added update '<UPDATE 108>42088,42023,529.36' for request #108
+[DBMS (Processing Thread 0)] Added update '<UPDATE 108>42022,42038,438.77' for request #108
+[Bank Teller 1] Sent request #109
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #107
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 108>42088,42023,529.36' for request #108
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 108>42022,42038,438.77' for request #108
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #108
+[(Backup) DBMS (Processing Thread 0)] Committed request #108
+[DBMS (Processing Thread 2)] hasn't started request #109, skipping
+[DBMS (Processing Thread 3)] hasn't started request #109, skipping
+[DBMS (Processing Thread 1)] Added update '<UPDATE 109>42089,42036,205.46' for request #109
+[DBMS (Processing Thread 1)] Added update '<UPDATE 109>42034,42026,742.97' for request #109
+[DBMS (Processing Thread 1)] Added update '<UPDATE 109>42047,42028,521.72' for request #109
+[Bank Teller 2] Sent request #110
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #108
+[Bank Teller 0] Sent request #111
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 109>42089,42036,205.46' for request #109
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 109>42034,42026,742.97' for request #109
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 109>42047,42028,521.72' for request #109
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #109
+[(Backup) DBMS (Processing Thread 0)] Committed request #109
+[DBMS (Processing Thread 3)] hasn't started request #110, skipping
+[DBMS (Processing Thread 2)] hasn't started request #110, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 110>42051,42054,666.46' for request #110
+[DBMS (Processing Thread 2)] Added update '<UPDATE 110>42031,42054,893.91' for request #110
+[DBMS (Processing Thread 0)] Added update '<UPDATE 110>42059,42011,757.53' for request #110
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #109
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 110>42051,42054,666.46' for request #110
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 110>42031,42054,893.91' for request #110
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 110>42059,42011,757.53' for request #110
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #110
+[DBMS (Processing Thread 3)] Added update '<UPDATE 111>42020,42021,159.90' for request #111
+[DBMS (Processing Thread 1)] hasn't started request #111, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 111>42086,42014,812.37' for request #111
+[DBMS (Processing Thread 3)] Added update '<UPDATE 111>42053,42046,831.64' for request #111
+[(Backup) DBMS (Processing Thread 0)] Committed request #110
+[Bank Teller 3] Sent request #112
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #110
+[Bank Teller 2] Sent request #113
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 111>42020,42021,159.9' for request #111
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 111>42086,42014,812.37' for request #111
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 111>42053,42046,831.64' for request #111
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #111
+[(Backup) DBMS (Processing Thread 0)] Committed request #111
+[DBMS (Processing Thread 2)] hasn't started request #112, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 112>42008,42079,561.44' for request #112
+[DBMS (Processing Thread 0)] 3 packets exist for request 112, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 112>42033,42096,551.35' for request #112
+[DBMS (Processing Thread 0)] Added update '<UPDATE 112>42079,42007,866.41' for request #112
+[DBMS (Processing Thread 1)] Added update '<UPDATE 112>42055,42042,544.52' for request #112
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #111
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 112>42008,42079,561.44' for request #112
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 112>42033,42096,551.35' for request #112
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 112>42079,42007,866.41' for request #112
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 112>42055,42042,544.52' for request #112
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #112
+[(Backup) DBMS (Processing Thread 0)] Committed request #112
+[DBMS (Processing Thread 0)] hasn't started request #113, skipping
+[DBMS (Processing Thread 3)] hasn't started request #113, skipping
+[DBMS (Processing Thread 1)] hasn't started request #113, skipping
+[DBMS (Processing Thread 0)] hasn't started request #113, skipping
+[DBMS (Processing Thread 1)] hasn't started request #113, skipping
+[DBMS (Processing Thread 3)] hasn't started request #113, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 113>42025,42069,209.75' for request #113
+[DBMS (Processing Thread 0)] Added update '<UPDATE 113>42036,42023,460.29' for request #113
+[DBMS (Processing Thread 0)] 3 packets exist for request 113, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 113>42017,42031,454.26' for request #113
+[DBMS (Processing Thread 3)] Added update '<UPDATE 113>42033,42022,599.32' for request #113
+[DBMS (Processing Thread 3)] Added update '<UPDATE 113>42051,42086,599.15' for request #113
+[Bank Teller 1] Sent request #114
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #112
+[Bank Teller 3] Sent request #115
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 113>42025,42069,209.75' for request #113
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 113>42036,42023,460.29' for request #113
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 113>42017,42031,454.26' for request #113
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 113>42033,42022,599.32' for request #113
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 113>42051,42086,599.15' for request #113
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #113
+[(Backup) DBMS (Processing Thread 0)] Committed request #113
+[DBMS (Processing Thread 1)] hasn't started request #114, skipping
+[DBMS (Processing Thread 1)] hasn't started request #114, skipping
+[DBMS (Processing Thread 2)] hasn't started request #114, skipping
+[DBMS (Processing Thread 1)] hasn't started request #114, skipping
+[DBMS (Processing Thread 0)] Added update '<UPDATE 114>42095,42017,965.96' for request #114
+[DBMS (Processing Thread 2)] Added update '<UPDATE 114>42092,42091,106.88' for request #114
+[DBMS (Processing Thread 2)] Added update '<UPDATE 114>42023,42054,535.77' for request #114
+[DBMS (Processing Thread 2)] 1 packets exist for request 114, not committing yet.
+[DBMS (Processing Thread 0)] Added update '<UPDATE 114>42016,42091,815.22' for request #114
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #113
+[Bank Teller 2] Sent request #116
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 114>42095,42017,965.96' for request #114
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 114>42092,42091,106.88' for request #114
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 114>42023,42054,535.77' for request #114
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 114>42016,42091,815.22' for request #114
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #114
+[(Backup) DBMS (Processing Thread 0)] Committed request #114
+[DBMS (Processing Thread 1)] 2 packets exist for request 115, not committing yet.
+[DBMS (Processing Thread 3)] Added update '<UPDATE 115>42063,42060,730.01' for request #115
+[DBMS (Processing Thread 2)] Added update '<UPDATE 115>42094,42017,154.35' for request #115
+[DBMS (Processing Thread 0)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 0)] Committed request #114
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 115>42063,42060,730.01' for request #115
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 115>42094,42017,154.35' for request #115
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #115
+[(Backup) DBMS (Processing Thread 0)] Committed request #115
+[DBMS (Processing Thread 0)] hasn't started request #116, skipping
+[DBMS (Processing Thread 1)] hasn't started request #116, skipping
+[DBMS (Processing Thread 3)] Added update '<UPDATE 116>42092,42051,828.52' for request #116
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 116>42092,42051,828.52' for request #116
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #116
+[(Backup) DBMS (Processing Thread 0)] Committed request #116
+[Bank Teller 1] Sent request #117
+[DBMS (Processing Thread 1)] Added update '<UPDATE 117>42024,42067,112.95' for request #117
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 117>42024,42067,112.95' for request #117
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #117
+[(Backup) DBMS (Processing Thread 0)] Committed request #117
+[DBMS (Processing Thread 2)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 2)] Committed request #115
+[Bank Teller 3] Sent request #118
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #116
+[DBMS (Processing Thread 3)] Added update '<UPDATE 118>42086,42046,635.25' for request #118
+[DBMS (Processing Thread 3)] Added update '<UPDATE 118>42004,42097,137.68' for request #118
+[Bank Teller 2] Sent request #119
+[DBMS (Processing Thread 1)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 1)] Committed request #117
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 118>42086,42046,635.25' for request #118
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 118>42004,42097,137.68' for request #118
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #118
+[(Backup) DBMS (Processing Thread 0)] Committed request #118
+[DBMS (Processing Thread 2)] Added update '<UPDATE 119>42063,42015,495.33' for request #119
+[(Backup) DBMS (Processing Thread 0)] Added update '<UPDATE 119>42063,42015,495.33' for request #119
+[(Backup) DBMS (Processing Thread 0)] Incremented request number from backup to #119
+[(Backup) DBMS (Processing Thread 0)] Committed request #119
+[Bank Teller 0] Sent request #120
+[DBMS (Processing Thread 0)] Added update '<UPDATE 120>42064,42070,512.25' for request #120
+[DBMS (Processing Thread 3)] Finished waiting on backup, proceeding with commit
+[DBMS (Processing Thread 3)] Committed request #118
+[Ba
